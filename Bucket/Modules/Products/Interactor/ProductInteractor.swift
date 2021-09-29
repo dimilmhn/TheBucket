@@ -45,7 +45,7 @@ class ProductInteractor: ProductInteractorInputProtocol {
     }
     
     func retrieveProductList(service: ProductService = ProductService(), completion: @escaping(_ list: [Product]?) -> Void, failure: @escaping (_ error: Error?) -> Void) {
-        sessionProvider.request(type: [Product].self, service: service) { [weak self] response in
+        sessionProvider.request(type: [Product].self, service: service) { response in
             switch response {
             case let .success(list):
                 completion(list)
@@ -70,7 +70,6 @@ class ProductInteractor: ProductInteractorInputProtocol {
         }
     }
     
-    //  //Save the searches from user to local database
     func updateWishList(_ item: Product) {
         let wishListStatus = fetachWishList()?.contains(where: { $0.id == item.id }) ?? false
         wishListStatus ? removeFromWishList(item) : saveToWishList(item)

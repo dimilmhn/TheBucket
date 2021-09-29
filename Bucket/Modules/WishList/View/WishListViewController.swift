@@ -44,10 +44,7 @@ extension WishListViewController: WishListPresenterProtocol {
             return
         }
         
-        guard let list = items, list.count > 0 else {
-            DispatchQueue.main.async {
-                self.showAlert(Constants.Error.Message.wishListNoData)
-            }
+        guard let list = items else {
             return
         }
         

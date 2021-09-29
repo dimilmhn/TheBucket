@@ -29,8 +29,8 @@ class ProductInteractorTests: XCTestCase {
             XCTAssertNotNil(items)
             XCTAssert(items?.count == 77)
             expectation.fulfill()
-        }, failure: { [weak self] error in
-            XCTFail("Failed to retrieve profiles")
+        }, failure: { error in
+            XCTFail("Failed to retrieve products")
         })
         waitForExpectations(timeout: 3.0, handler: nil)
     }
@@ -56,5 +56,4 @@ class ProductInteractorTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

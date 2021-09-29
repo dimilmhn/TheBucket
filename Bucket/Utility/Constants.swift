@@ -25,7 +25,6 @@ struct Constants {
         struct Message {
             static let generic = "Something went wrong"
             static let noData = "Data unavailable"
-            static let wishListNoData = "Wishlist is empty"
         }
     }
     
