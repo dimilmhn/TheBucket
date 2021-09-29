@@ -8,9 +8,14 @@
 import Foundation
 
 struct ProductService: NetworkServiceProtocol {
+    var url: String!
+    
+    init(_ url: String = Constants.API.baseURL) {
+        self.url = url
+    }
     
     var baseURL: URL? {
-        return URL(string: Constants.API.baseURL)
+        return URL(string: url)
     }
     
     var path: String {

@@ -44,8 +44,8 @@ class ProductInteractor: ProductInteractorInputProtocol {
         })
     }
     
-    private func retrieveProductList(completion: @escaping(_ list: [Product]?) -> Void, failure: @escaping (_ error: Error?) -> Void) {
-        sessionProvider.request(type: [Product].self, service: ProductService()) { [weak self] response in
+    func retrieveProductList(service: ProductService = ProductService(), completion: @escaping(_ list: [Product]?) -> Void, failure: @escaping (_ error: Error?) -> Void) {
+        sessionProvider.request(type: [Product].self, service: service) { [weak self] response in
             switch response {
             case let .success(list):
                 completion(list)

@@ -34,7 +34,6 @@
 		10C934F0270208EF00B2EA91 /* Decode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934EF270208EF00B2EA91 /* Decode+Extension.swift */; };
 		10C934F1270208EF00B2EA91 /* Decode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934EF270208EF00B2EA91 /* Decode+Extension.swift */; };
 		10C934F327020D3900B2EA91 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934F227020D3900B2EA91 /* ProductService.swift */; };
-		10C934F427020D3900B2EA91 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934F227020D3900B2EA91 /* ProductService.swift */; };
 		10C934F627020D6B00B2EA91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934F527020D6B00B2EA91 /* Constants.swift */; };
 		10C934F727020D6B00B2EA91 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934F527020D6B00B2EA91 /* Constants.swift */; };
 		10C934F9270310AC00B2EA91 /* ImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C934F8270310AC00B2EA91 /* ImageView+Extension.swift */; };
@@ -48,6 +47,10 @@
 		10C9351D2703977D00B2EA91 /* WishListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9351C2703977D00B2EA91 /* WishListPresenter.swift */; };
 		10C9351F270397E800B2EA91 /* WishListRouteWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9351E270397E800B2EA91 /* WishListRouteWireframe.swift */; };
 		10C93521270435EC00B2EA91 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C93520270435EC00B2EA91 /* UIViewController+Extension.swift */; };
+		10C9352327047FE600B2EA91 /* ProductInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9352227047FE600B2EA91 /* ProductInteractorTests.swift */; };
+		10C93527270480E000B2EA91 /* ProductRetrievePositiveResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C93525270480E000B2EA91 /* ProductRetrievePositiveResponse.json */; };
+		10C93528270480E000B2EA91 /* ProductRetrieveEmptyResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 10C93526270480E000B2EA91 /* ProductRetrieveEmptyResponse.json */; };
+		10C9352D270481D400B2EA91 /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C9352C270481D400B2EA91 /* JsonLoader.swift */; };
 		251F77C048A7B67361B5D477 /* Pods_Bucket_BucketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A611051C5A88E38B49ABEFBF /* Pods_Bucket_BucketUITests.framework */; };
 		43D3223B1C8A9870A1906DBB /* Pods_Bucket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620464D8EB8720F5422CB935 /* Pods_Bucket.framework */; };
 		4EFED3F3773C098D5D712C8B /* Pods_BucketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB08CD732A430B895F803F32 /* Pods_BucketTests.framework */; };
@@ -113,6 +116,10 @@
 		10C9351C2703977D00B2EA91 /* WishListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListPresenter.swift; sourceTree = "<group>"; };
 		10C9351E270397E800B2EA91 /* WishListRouteWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListRouteWireframe.swift; sourceTree = "<group>"; };
 		10C93520270435EC00B2EA91 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		10C9352227047FE600B2EA91 /* ProductInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInteractorTests.swift; sourceTree = "<group>"; };
+		10C93525270480E000B2EA91 /* ProductRetrievePositiveResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProductRetrievePositiveResponse.json; sourceTree = "<group>"; };
+		10C93526270480E000B2EA91 /* ProductRetrieveEmptyResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ProductRetrieveEmptyResponse.json; sourceTree = "<group>"; };
+		10C9352C270481D400B2EA91 /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
 		2B99C30A4248192B391A8975 /* Pods-Bucket-BucketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bucket-BucketUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bucket-BucketUITests/Pods-Bucket-BucketUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		322AB8A81991F240329CF1F4 /* Pods-BucketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BucketTests.debug.xcconfig"; path = "Target Support Files/Pods-BucketTests/Pods-BucketTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B67DCE7FF70C60337BF8EDA /* Pods-BucketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BucketTests.release.xcconfig"; path = "Target Support Files/Pods-BucketTests/Pods-BucketTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -195,7 +202,10 @@
 		103512C427008AE300B448CC /* BucketTests */ = {
 			isa = PBXGroup;
 			children = (
+				10C9352B270481C700B2EA91 /* Utility */,
+				10C93524270480E000B2EA91 /* Resources */,
 				103512C527008AE300B448CC /* BucketTests.swift */,
+				10C9352227047FE600B2EA91 /* ProductInteractorTests.swift */,
 			);
 			path = BucketTests;
 			sourceTree = "<group>";
@@ -434,6 +444,23 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		10C93524270480E000B2EA91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10C93525270480E000B2EA91 /* ProductRetrievePositiveResponse.json */,
+				10C93526270480E000B2EA91 /* ProductRetrieveEmptyResponse.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		10C9352B270481C700B2EA91 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				10C9352C270481D400B2EA91 /* JsonLoader.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		222501BAC0F593BAB9CE541C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,6 +603,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C93528270480E000B2EA91 /* ProductRetrieveEmptyResponse.json in Resources */,
+				10C93527270480E000B2EA91 /* ProductRetrievePositiveResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,9 +764,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C9352327047FE600B2EA91 /* ProductInteractorTests.swift in Sources */,
 				10C934F727020D6B00B2EA91 /* Constants.swift in Sources */,
-				10C934F427020D3900B2EA91 /* ProductService.swift in Sources */,
 				10C934F1270208EF00B2EA91 /* Decode+Extension.swift in Sources */,
+				10C9352D270481D400B2EA91 /* JsonLoader.swift in Sources */,
 				103512C627008AE300B448CC /* BucketTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -837,7 +867,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -892,7 +922,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -970,7 +1000,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 397M3GTRT7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -996,7 +1026,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 397M3GTRT7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

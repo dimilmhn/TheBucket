@@ -1,18 +1,31 @@
 PODS:
+  - Mockingjay (2.0.1):
+    - Mockingjay/Core (= 2.0.1)
+    - Mockingjay/XCTest (= 2.0.1)
+  - Mockingjay/Core (2.0.1):
+    - URITemplate (~> 2.0)
+  - Mockingjay/XCTest (2.0.1):
+    - Mockingjay/Core
   - SDWebImage (5.11.0):
     - SDWebImage/Core (= 5.11.0)
   - SDWebImage/Core (5.11.0)
+  - URITemplate (2.0.3)
 
 DEPENDENCIES:
+  - Mockingjay
   - SDWebImage (~> 5.0)
 
 SPEC REPOS:
   trunk:
+    - Mockingjay
     - SDWebImage
+    - URITemplate
 
 SPEC CHECKSUMS:
+  Mockingjay: 11a621880d2887f1775bdcf824341eb68f218450
   SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+  URITemplate: ace0c4c46dcf8afe6e89b4060621852886b15c3b
 
-PODFILE CHECKSUM: e62c281e72ed1146682e324d8668263b5fcb2ad3
+PODFILE CHECKSUM: 4f7854e4df6311f9cccf5281f45ceb7eafb2a66a
 
 COCOAPODS: 1.11.2
